@@ -1,0 +1,35 @@
+root@hqceph1:/usr/local/ceph-deploy-new#
+ 
+ bin/ceph-deploy disk zap hqosd13:sdb
+ bin/ceph-deploy disk zap hqosd13:sdc
+ bin/ceph-deploy disk zap hqosd13:sdd
+ bin/ceph-deploy disk zap hqosd13:sde
+ bin/ceph-deploy disk zap hqosd13:sdf
+ bin/ceph-deploy disk zap hqosd13:sdg
+ bin/ceph-deploy disk zap hqosd13:sdh
+ bin/ceph-deploy disk zap hqosd13:sdi
+ bin/ceph-deploy disk zap hqosd13:sdj
+ bin/ceph-deploy disk zap hqosd13:sdk
+ bin/ceph-deploy disk zap hqosd13:sdl
+ bin/ceph-deploy disk zap hqosd13:sdm
+ bin/ceph-deploy disk zap hqosd13:sdn
+ bin/ceph-deploy disk zap hqosd13:sdo
+ bin/ceph-deploy disk zap hqosd13:sdp
+ bin/ceph-deploy disk zap hqosd13:sdq
+
+ bin/ceph-deploy osd create hqosd13:sdb:/dev/nvme0n1p1
+ bin/ceph-deploy osd create hqosd13:sdc:/dev/nvme0n1p2
+ bin/ceph-deploy osd create hqosd13:sdd:/dev/nvme0n1p3
+ bin/ceph-deploy osd create hqosd13:sde:/dev/nvme0n1p4
+ bin/ceph-deploy osd create hqosd13:sdf:/dev/nvme0n1p5
+ bin/ceph-deploy osd create hqosd13:sdg:/dev/nvme0n1p6
+ bin/ceph-deploy osd create hqosd13:sdh:/dev/nvme0n1p7
+ bin/ceph-deploy osd create hqosd13:sdi:/dev/nvme0n1p8
+ bin/ceph-deploy osd create hqosd13:sdj:/dev/nvme0n1p9
+ bin/ceph-deploy osd create hqosd13:sdk:/dev/nvme0n1p10
+ bin/ceph-deploy osd create hqosd13:sdl:/dev/nvme0n1p11
+ bin/ceph-deploy osd create hqosd13:sdm:/dev/nvme0n1p12
+ bin/ceph-deploy osd create hqosd13:sdn:/dev/nvme0n1p13
+ bin/ceph-deploy osd create hqosd13:sdo:/dev/nvme0n1p14
+ bin/ceph-deploy osd create hqosd13:sdp:/dev/nvme0n1p15
+ bin/ceph-deploy osd create hqosd13:sdq:/dev/nvme0n1p16
